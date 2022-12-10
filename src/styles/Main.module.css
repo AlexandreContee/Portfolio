@@ -1,0 +1,117 @@
+.story div:first-child {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.paragraph {
+  display: block;
+  text-align: left;
+  margin: auto;
+  font-size: 1.2rem;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.main p::first-letter {
+  margin-left: 40px;
+}
+
+#img {
+  margin: 25px auto 0 auto;
+  width: 100%;
+}
+
+#item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 200px) {
+  #img {
+    width: 190px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  #img {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  #img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #img {
+    width: 600px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #img {
+    width: 700px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #img {
+    width: 800px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #img {
+    width: 900px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #img {
+    width: 1000px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #img {
+    width: 1100px;
+    height: auto;
+  }
+}

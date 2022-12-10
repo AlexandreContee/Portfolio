@@ -1,0 +1,24 @@
+.projects ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.projects li {
+  margin: 25px;
+}
+
+.projects p {
+  text-align: center;
+}
+
+.item {
+  transition: transform 0.4s;
+}
+
+.item:hover,
+.item:focus {
+  transform: scale(1.1);
+}

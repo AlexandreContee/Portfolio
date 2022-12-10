@@ -1,0 +1,17 @@
+.item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.item a {
+  transition: all 0.4s;
+}
+
+.item a:hover,
+.item a:focus {
+  transform: scale(1.2);
+  filter: invert(75%) sepia(21%) saturate(4346%) hue-rotate(183deg) brightness(140%) contrast(100%);
+  transform: scale(1.1);
+}

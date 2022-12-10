@@ -1,0 +1,35 @@
+.header section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headerDescription {
+  margin: 30px;
+}
+
+.headerDescription h1 {
+  font: 200;
+}
+
+.header h1 {
+  color: #7775ff;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.header h2 {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.header p {
+  font-weight: 100;
+}
+
+#image {
+  margin: 30px;
+  border-radius: 50%;
+  border: 1px solid #7775ff;
+}

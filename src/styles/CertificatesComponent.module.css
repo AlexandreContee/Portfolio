@@ -1,0 +1,29 @@
+.certificates {
+  margin-bottom: 30px;
+}
+
+.certificates ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.certificates img {
+  margin: 20px;
+}
+
+.certificates p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.item {
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+
+.item:hover,
+.item:focus {
+  transform: scale(1.1);
+}
