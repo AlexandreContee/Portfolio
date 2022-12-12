@@ -1,12 +1,13 @@
 import JavaImage from '../../public/images/skills/java.svg'
 import Css3Image from '../../public/images/skills/css3.svg'
 import Html5Image from '../../public/images/skills/html5.svg'
-import javascriptImage from '../../public/images/skills/javascript.svg'
+import JavascriptImage from '../../public/images/skills/javascript.svg'
 import NextjsImage from '../../public/images/skills/nextjs.svg'
 import TypeScriptImage from '../../public/images/skills/typescript.svg'
 import PythonImage from '../../public/images/skills/python.svg'
 import ReactImage from '../../public/images/skills/reactjs.svg'
 import CsImage from '../../public/images/skills/CSharp.svg'
+import GitImage from '../../public/images/skills/git.svg'
 import bgImage from "../../public/images/background/comfort-zone.jpg"
 
 import Image from "next/image"
@@ -30,14 +31,15 @@ export default function Main() {
         <div>
           <h3>Conhecimentos</h3>
           <ul id={styles.item}>
-            <KnowledgeItem src={JavaImage} text="Java" />
-            <KnowledgeItem src={Css3Image} text="CSS3" />
+            <KnowledgeItem src={GitImage} text="Git" />
             <KnowledgeItem src={Html5Image} text="HTML5" />
-            <KnowledgeItem src={javascriptImage} text="JavaScript" />
-            <KnowledgeItem src={NextjsImage} text="NextJs" />
-            <KnowledgeItem src={PythonImage} text="Python" />
+            <KnowledgeItem src={Css3Image} text="CSS3" />
+            <KnowledgeItem src={JavascriptImage} text="JavaScript" />
             <KnowledgeItem src={TypeScriptImage} text="TypeScript" />
+            <KnowledgeItem src={NextjsImage} text="NextJs" />
             <KnowledgeItem src={ReactImage} text="React" />
+            <KnowledgeItem src={PythonImage} text="Python" />
+            <KnowledgeItem src={JavaImage} text="Java" />
             <KnowledgeItem src={CsImage} text="C#" />
           </ul>
         </div>
