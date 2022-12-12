@@ -11,7 +11,7 @@ export default function Footer() {
       <ul>
         <ContactItem href="https://www.linkedin.com/in/alexandreconteprog/" src={linkedInImage} txt="LinkedIn" />
         <ContactItem href="https://github.com/AlexandreContee" src={githubImage} txt="Github" />
-        <ContactItem href="https://github.com/AlexandreContee" src={instagramImage} txt="Instagram" />
+        <ContactItem href="https://www.instagram.com/alexandreconte_oficial/" src={instagramImage} txt="Instagram" />
       </ul>
     </footer>
   )
