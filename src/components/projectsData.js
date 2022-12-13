@@ -65,4 +65,10 @@ export const projectsData = [
     href: "https://firebase-authentication-alexandrecontee.vercel.app/",
     text: "Staart: Autenticação",
   },
+  {
+    id: 11,
+    source: "/images/projects/next-counter.jpg",
+    href: "https://counter-alexandre-conte.vercel.app/",
+    text: "NextJs Counter",
+  },
 ]
