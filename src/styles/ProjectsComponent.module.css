@@ -8,6 +8,7 @@
 
 .projects li {
   margin: 25px;
+  border: 1px solid #808080;
 }
 
 .projects p {

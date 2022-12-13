@@ -9,13 +9,18 @@
   justify-content: space-evenly;
 }
 
+.item {
+  margin-bottom: 15px;
+  border: 1px solid #808080;
+}
+
 .certificates img {
   margin: 20px;
 }
 
 .certificates p {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .item {
