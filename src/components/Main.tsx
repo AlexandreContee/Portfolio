@@ -1,20 +1,25 @@
-import JavaImage from '../../public/images/skills/java.svg'
-import Css3Image from '../../public/images/skills/css3.svg'
-import Html5Image from '../../public/images/skills/html5.svg'
-import JavascriptImage from '../../public/images/skills/javascript.svg'
-import NextjsImage from '../../public/images/skills/nextjs.svg'
-import TypeScriptImage from '../../public/images/skills/typescript.svg'
-import PythonImage from '../../public/images/skills/python.svg'
-import ReactImage from '../../public/images/skills/reactjs.svg'
-import CsImage from '../../public/images/skills/CSharp.svg'
-import GitImage from '../../public/images/skills/git.svg'
-import bgImage from "../../public/images/background/comfort-zone.jpg"
-
+import Icons from './Icons'
 import Image from "next/image"
 import KnowledgeItem from './KnowledgeItem'
 import styles from "../styles/Main.module.css"
 
 export default function Main() {
+
+  const [
+    bgImage,
+    GitImage,
+    Html5Image,
+    Css3Image,
+    JavascriptImage,
+    TypeScriptImage,
+    NextjsImage,
+    ReactImage,
+    PythonImage,
+    JavaImage,
+    CsImage,
+    TailwindCssImage,
+  ] = Icons
+
   return (
     <main className={styles.main}>
       <section className={styles.story}>
@@ -28,7 +33,7 @@ export default function Main() {
           </p>
           <Image id={styles.img} src={bgImage} alt="A vida começa no final da sua zona de conforto - Neale Donald Walsch" />
         </div>
-        <div>
+        <div className={styles.knowledges}>
           <h3>Conhecimentos</h3>
           <ul id={styles.item}>
             <KnowledgeItem src={GitImage} text="Git" />
@@ -41,6 +46,7 @@ export default function Main() {
             <KnowledgeItem src={PythonImage} text="Python" />
             <KnowledgeItem src={JavaImage} text="Java" />
             <KnowledgeItem src={CsImage} text="C#" />
+            <KnowledgeItem src={TailwindCssImage} text="Tailwind CSS" />
           </ul>
         </div>
       </section>

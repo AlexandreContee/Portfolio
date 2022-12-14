@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 .main h3 {
@@ -14,16 +14,16 @@
 }
 
 .paragraph {
-  display: block;
-  text-align: left;
-  margin: auto;
+  margin-right: 30px;
   font-size: 1.2rem;
-  margin-left: 20px;
+  margin-left: 30px;
   padding: 10px;
 }
 
-.main p::first-letter {
-  margin-left: 40px;
+.knowledges {
+  margin-top: 25px;
+  padding-top: 25px;
+  background-color: rgb(80, 80, 80);
 }
 
 #img {
