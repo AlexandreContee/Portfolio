@@ -69,6 +69,12 @@ export const projectsData = [
     id: 11,
     source: "/images/projects/next-counter.jpg",
     href: "https://counter-alexandre-conte.vercel.app/",
-    text: "NextJs Counter",
+    text: "Contador com NextJs",
+  },
+  {
+    id: 12,
+    source: "/images/projects/theme-changer.jpg",
+    href: "https://theme-changer-alexandre.vercel.app/",
+    text: "Temas",
   },
 ]
