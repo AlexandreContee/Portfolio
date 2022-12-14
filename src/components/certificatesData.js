@@ -207,6 +207,6 @@ export const certificatesData = [
     id: 33,
     href: "https://www.dio.me/certificate/3B4896B7/share",
     source: "/images/certifications/react-typescript.jpg",
-    name: "Navegação React",
+    name: "JavaScript para TypeScript",
   },
 ]
