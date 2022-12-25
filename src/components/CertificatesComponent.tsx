@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import styles from '../styles/CertificatesComponent.module.css'
-import { certificatesData } from './certificatesData'
+import { certificatesData } from './data/certificatesData'
 
 export default function CertificatesComponent() {
   return (

@@ -221,4 +221,10 @@ export const certificatesData = [
     source: "/images/certifications/tech-basic-box.jpg",
     name: "Caixa de ferramentas de Tecnologia",
   },
+  {
+    id: 36,
+    href: "https://www.coursera.org/account/accomplishments/verify/G8B84JC2Z9GH",
+    source: "/images/certifications/meta-react-basics.jpg",
+    name: "React: Fundamentos",
+  },
 ]

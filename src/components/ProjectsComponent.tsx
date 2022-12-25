@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/ProjectsComponent.module.css'
-import { projectsData } from './projectsData'
+import { projectsData } from './data/projectsData'
 
 export default function ProjectsComponent() {
   return (
