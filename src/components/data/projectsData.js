@@ -77,4 +77,10 @@ export const projectsData = [
     href: "https://theme-changer-alexandre.vercel.app/",
     text: "Temas",
   },
+  {
+    id: 13,
+    source: "/images/projects/gerenciador-tarefa-react.jpg",
+    href: "https://task-manager-alexandre.vercel.app/",
+    text: "Gerenciador de tarefas: React",
+  },
 ]
