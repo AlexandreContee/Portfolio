@@ -115,3 +115,49 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  #img {
+    width: 1300px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #img {
+    width: 1500px;
+    height: auto;
+  }
+
+  .paragraph {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #img {
+    width: 1700px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  #img {
+    width: 1900px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  #img {
+    width: 2100px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  #img {
+    width: 2100px;
+    height: auto;
+  }
+}

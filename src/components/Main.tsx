@@ -24,7 +24,7 @@ export default function Main() {
     <main className={styles.main}>
       <section className={styles.story}>
         <div>
-          <h3>História</h3>
+          <h3 className={styles.h3}>História</h3>
           <p className={styles.paragraph}>
             Fui acadêmico de Engenharia Mecânica de 2016 a 2019 no Instituto Federal de Santa Catarina, quando notei que pensava apenas em códigos de programação após cursar algoritmos.
           </p>
