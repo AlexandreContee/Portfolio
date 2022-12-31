@@ -1,0 +1,19 @@
+.it p {
+  text-align: center;
+  margin-bottom: 15px;
+  margin: auto;
+  padding: .3rem;
+}
+
+.it {
+  margin-bottom: 24px;
+  margin-left: 12px;
+  border: 1px solid #808080;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+
+.it:hover,
+.it:focus {
+  transform: scale(1.1);
+}

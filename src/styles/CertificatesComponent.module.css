@@ -2,6 +2,11 @@
   margin-bottom: 30px;
 }
 
+.certificates h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .certificates ul {
   list-style: none;
   display: flex;
@@ -9,24 +14,6 @@
   justify-content: space-evenly;
 }
 
-.certificates img {
-  margin: 20px;
-}
-
-.certificates p {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.item {
-  margin-bottom: 24px;
-  margin-left: 12px;
-  border: 1px solid #808080;
-  transition: transform 0.4s;
-  cursor: pointer;
-}
-
-.item:hover,
-.item:focus {
-  transform: scale(1.1);
+.certificates div {
+  margin-top: 2rem;
 }
