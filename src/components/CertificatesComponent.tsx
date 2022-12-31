@@ -77,7 +77,7 @@ export default function CertificatesComponent() {
           </ul>
         </div>
         <div>
-          <h3>Nelio Alves Courses</h3>
+          <h3>Cursos Nelio Alves</h3>
           <ul>
             {renderNelioCertificates()}
           </ul>
