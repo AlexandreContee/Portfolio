@@ -65,13 +65,13 @@ export default function CertificatesComponent() {
     <main className={styles.certificates}>
       <section>
         <div>
-          <h3>Meta Courses</h3>
+          <h3>Cursos Meta</h3>
           <ul>
             {renderMetaCertificates()}
           </ul>
         </div>
         <div>
-          <h3>Staart Courses</h3>
+          <h3>Cursos Staart</h3>
           <ul>
             {renderStaartCertificates()}
           </ul>
@@ -83,20 +83,20 @@ export default function CertificatesComponent() {
           </ul>
         </div>
         <div>
-          <h3>ProWay courses</h3>
+          <h3>Cursos ProWay</h3>
           <ul>
             {renderProWayCertificates()}
           </ul>
         </div>
         <div>
-          <h3>Digital Innovation One Courses</h3>
+          <h3>Cursos Digital Innovation One</h3>
           <ul>
             {renderDIOCertificates()}
           </ul>
         </div>
         {renderOtherCertificates() ? (
           <div>
-            <h3>Other courses</h3>
+            <h3>Outros Cursos</h3>
             <ul>
               {renderOtherCertificates()}
             </ul>
