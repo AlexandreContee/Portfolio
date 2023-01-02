@@ -6,13 +6,16 @@ import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
-      <p>Contatos</p>
-      <ul>
-        <ContactItem href="https://www.linkedin.com/in/alexandreconteprog/" src={linkedInImage} txt="LinkedIn" />
-        <ContactItem href="https://github.com/AlexandreContee" src={githubImage} txt="Github" />
-        <ContactItem href="https://www.instagram.com/alexandreconte_oficial/" src={instagramImage} txt="Instagram" />
-      </ul>
-    </footer>
+    <>
+      <div id={styles.footerSpace}></div>
+      <footer className={styles.footer}>
+        <p>Contatos</p>
+        <ul>
+          <ContactItem href="https://www.linkedin.com/in/alexandreconteprog/" src={linkedInImage} txt="LinkedIn" />
+          <ContactItem href="https://github.com/AlexandreContee" src={githubImage} txt="Github" />
+          <ContactItem href="https://www.instagram.com/alexandreconte_oficial/" src={instagramImage} txt="Instagram" />
+        </ul>
+      </footer>
+    </>
   )
 }
