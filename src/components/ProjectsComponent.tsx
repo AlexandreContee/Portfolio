@@ -6,6 +6,9 @@ import { projectsData } from './data/projectsData'
 export default function ProjectsComponent() {
   return (
     <main className={styles.projects}>
+      <div>
+        <h3>Projetos</h3>
+      </div>
       <section>
         <ul>
           {projectsData.map(p => (

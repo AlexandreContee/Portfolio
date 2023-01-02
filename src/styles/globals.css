@@ -29,3 +29,8 @@ a {
 img::selection {
   background-color: transparent;
 }
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

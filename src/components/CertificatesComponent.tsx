@@ -63,6 +63,9 @@ export default function CertificatesComponent() {
 
   return (
     <main className={styles.certificates}>
+      <div>
+        <h3>Certificados</h3>
+      </div>
       <section>
         <div>
           <h3>Cursos Meta</h3>
