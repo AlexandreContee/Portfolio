@@ -1,4 +1,11 @@
+#navbarSpace {
+  height: 4rem;
+}
+
 .navbar ul {
+  width: 100%;
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-evenly;
   list-style: none;
@@ -6,4 +13,5 @@
   padding: 10px;
   border-bottom: 1px solid #fff;
   background-color: #000;
+  z-index: 10;
 }
