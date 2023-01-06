@@ -157,7 +157,7 @@ export const certificatesData = [
     id: 22,
     href: "https://www.coursera.org/account/accomplishments/verify/Z7QV8RJF7DSC",
     source: "/images/certifications/metaFrontend.jpg",
-    name: "Front-end",
+    name: "Introduction to Front-end",
     author: "Meta"
   },
   {
@@ -185,7 +185,7 @@ export const certificatesData = [
     id: 26,
     href: "https://coursera.org/share/a3b1a520dddafb7f7b4d09fa12932cf3",
     source: "/images/certifications/version-control.jpg",
-    name: "Controle de Versão: Git",
+    name: "Version Control",
     author: "Meta"
   },
   {
@@ -262,7 +262,14 @@ export const certificatesData = [
     id: 36,
     href: "https://www.coursera.org/account/accomplishments/verify/G8B84JC2Z9GH",
     source: "/images/certifications/meta-react-basics.jpg",
-    name: "React: Fundamentos",
+    name: "React Basics",
+    author: "Meta"
+  },
+  {
+    id: 37,
+    href: "https://www.coursera.org/account/accomplishments/verify/766YNZHBXFA3",
+    source: "/images/certifications/meta-back-end-introduction.jpg",
+    name: "Introduction to Back-End",
     author: "Meta"
   },
 ]
