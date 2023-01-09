@@ -13,5 +13,6 @@
   padding: 10px;
   border-bottom: 1px solid #fff;
   background-color: #000000b3;
+  backdrop-filter: blur(3px);
   z-index: 10;
 }
