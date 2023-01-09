@@ -255,7 +255,7 @@ export const certificatesData = [
     id: 35,
     href: "https://assets.staart.com/app/_k/33f218a3-34e3-4257-9b3c-eab56572d2e5/3b5792a0-d9e4-487c-ba13-275026be5efa-496ce1bb-9dfc-48fa-91d7-db6bb375584b.pdf",
     source: "/images/certifications/tech-basic-box.jpg",
-    name: "Caixa de ferramentas de Tecnologia",
+    name: "Caixa de ferramentas Tech",
     author: "Staart"
   },
   {

@@ -89,4 +89,10 @@ export const projectsData = [
     href: "https://react-context-theme-changer.vercel.app/",
     text: "React Context: Temas",
   },
+  {
+    id: 15,
+    source: "/images/projects/fbi.png",
+    href: "https://fbi-most-wanted-one.vercel.app/",
+    text: "FBI API: Procurados",
+  },
 ]
